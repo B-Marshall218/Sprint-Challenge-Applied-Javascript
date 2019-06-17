@@ -45,24 +45,28 @@ class TabLink {
 
     // Iterate through the NodeList setting the display style each one to 'none'
     // cards.forEach()
-    Array.from(cards).forEach(card => (card.style.display = "none");
+    Array.from(cards).forEach(card => (card.style.display = "none"));
 
     // Add a class of ".active-tab" to this.tabElement
-    // this.tabElement;
+    this.tabElement.classList.add(".active-tab");
+
+    // These were Ideas I tried below
+    // this.tabElement = new Element(".active-tab");
+    // Array.from(tabElement).forEach(tabElement => tabElement.classList.add(".active-tab"));
 
     // Notice we are looping through the this.cards array and invoking selectCard() from the TabCard class. Just un-comment the code and study what is happening here.
-    // this.cards.forEach(card => card.selectCard());
+    this.cards.forEach(card => card.selectCard());
   }
 }
 
 class TabCard {
   constructor(cardElement) {
     // Assign this.cardElement to the cardElement DOM reference
-    // this.cardElement;
+    this.cardElement = cardElement;
   }
   selectCard() {
     // Update the style of this.cardElement to display = "flex"
-    // this.cardElement;
+    this.cardElement.style.display = "flex";
   }
 
 }
