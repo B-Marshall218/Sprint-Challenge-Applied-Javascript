@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+Its data structure is a tree and it allows us to interact and manipulate the page
+
 2. What is an event?
+
+A user interaction with the page 
 
 3. What is an event listener?
 
+There are dozens of events an element can listen for. And when one of those events happens on that element, we can do something about it. This is called an event listener
+
 4. Why would we convert a NodeList into an Array?
 
+It allows you to iterate over the arrays with map, forEach, etc. It gives you more power to manipulate your data. 
+
 5. What is a component?
+
+A piece of a greater code. It includes HTML, CSS, and JS. It's biggest advantage is keeping things D.R.Y. 
 
 ### Git Set up
 
