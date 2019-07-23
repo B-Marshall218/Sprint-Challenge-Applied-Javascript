@@ -25,7 +25,7 @@ function Header() {
     header.appendChild(hTemp)
 
     hDate.textContent = "MARCH 28, 2019"
-    hTitle.textContent = "Lambda TImes"
+    hTitle.textContent = "Lambda Times"
     hTemp.textContent = "98°"
 
 
